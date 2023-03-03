@@ -1,0 +1,42 @@
+
+
+h1{
+    color: red;
+    text-align: center;
+    font-family: Verdana,;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+/* accent-color property */
+#checkboxforaccent-color{
+    accent-color: red;
+    font-family: verdana;
+    opacity: 0.5;
+    
+}
+
+.flex{
+   align-items: center;
+    display: flex;
+    width: 220px;
+    height: 300px;
+    border: 1px solid balck;
+    
+}
+.flex div{
+    flex: 1;
+}
+
+a:active{
+    text-decoration: black;
+    
+}
+a:hover{
+    text-decoration: green;
+}
+
