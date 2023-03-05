@@ -1,0 +1,12 @@
+.name{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+     Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#file-progress {
+    width: 50%;
+    height: 20px;
+    border: 1px solid red;
+  }
+  
