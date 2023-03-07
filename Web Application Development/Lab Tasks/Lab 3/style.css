@@ -16,16 +16,18 @@
     padding: 10px;
     margin-top: -70px;
     margin-right: 20px;
+    
 }
 
 .navigation a{
     padding: 50px;
     font-size: 20px;
     color: black;
+    text-decoration: none;
  
 }
 .navigation :hover{
- color: black;
+ color: gray;
  
 }
 .navigation :active{
