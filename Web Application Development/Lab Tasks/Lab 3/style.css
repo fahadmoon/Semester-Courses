@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    
+}
+.logo{
+    padding: 35px;
+}
+.navigation{
+    float: right;
+    padding: 10px;
+    margin-top: -70px;
+    margin-right: 20px;
+}
+
+.navigation a{
+    padding: 50px;
+    font-size: 20px;
+    color: black;
+ 
+}
+.navigation :hover{
+ color: black;
+ 
+}
+.navigation :active{
+    color: black;
+    
+   }
+
+.aside img{
+    margin-left: 100px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.container{
+    width: 45%;
+    height: 500px;
+    margin-left:600px ;
+    margin-top: -430px;
+}
+.information{
+    width: 100%;
+    height: 500px;
+}
+.information table{
+    margin-left: 500px;
+    padding: 35px;
+    font-size: 30px;
+   
+}
+
+.information h2{
+    margin-left: 620px;
+    font-size: 50px;
+}
+
+
+.education{
+    width: 100%;
+    height: 300px;
+    
+}
+.education h1{
+    margin-left: 620px;
+    font-size: 50px;
+}
+
+
+
+.education table{
+    margin-left: -1000px;
+    margin-left: 500px;
+    padding: 5px;
+    font-size: 30px;
+    border: 1px solid black;
+   
+}
+.education table td{
+    margin-left: -1000px;
+    margin-left: 500px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+   
+}
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: red;
+}
+.footer h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer a{
+    text-align: center;
+    margin-top: 50px;
+}
