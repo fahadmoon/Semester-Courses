@@ -1,0 +1,31 @@
+A51 MACRO ASSEMBLER  LAB2                                                                 03/10/2023 11:06:05 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\lab2.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE lab2.asm SET(SMALL) DEBUG PRINT(.\Listings\lab2.lst) OBJECT(.\Objects\l
+                      ab2.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 00h
+0000 2401              2             add a,#1
+0002 2402              3             add a,#2
+0004 2403              4             add a,#3
+0006 2404              5             add a,#4
+0008 2405              6             add a,#5
+                       7             end
+A51 MACRO ASSEMBLER  LAB2                                                                 03/10/2023 11:06:05 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

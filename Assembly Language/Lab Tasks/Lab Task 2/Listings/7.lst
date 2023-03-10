@@ -1,0 +1,38 @@
+A51 MACRO ASSEMBLER  7                                                                    03/10/2023 12:21:08 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+NO OBJECT MODULE REQUESTED
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE 7.asm SET(SMALL) DEBUG PRINT(.\Listings\7.lst) OBJECT(.\Objects\7.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 00h
+0000 A935              2             mov r1,35h
+0002 AA60              3             mov r2,60h
+0004 7B0A              4             mov r3,#10
+0006 E7                5             BACK: mov a,@r1
+0007                   6             mov @r2,a
+*** _____________________________________^
+*** ______________________________________^
+*** ERROR #A4 IN 6 (7.asm, LINE 6): BAD INDIRECT REGISTER
+*** ERROR #A9 IN 6 (7.asm, LINE 6): SYNTAX ERROR
+0007 09                7             inc r1
+0008 0A                8             inc r2
+0009 DBFB              9             djnz r3,BACK
+*** WARNING #A41 IN 9 (7.asm, LINE 9): MISSING 'END' STATEMENT
+A51 MACRO ASSEMBLER  7                                                                    03/10/2023 12:21:08 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+BACK . . . . . . .  C ADDR   0006H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  1 WARNING(S), 2 ERROR(S)

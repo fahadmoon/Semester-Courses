@@ -1,0 +1,39 @@
+A51 MACRO ASSEMBLER  6                                                                    03/10/2023 12:02:00 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\6.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE 6.asm SET(SMALL) DEBUG PRINT(.\Listings\6.lst) OBJECT(.\Objects\6.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 00h
+0000 7929              2     mov r1,#29h
+0002 7A25              3     mov r2,#25h
+0004 7B23              4     mov r3,#23h
+                       5     
+                       6     
+0006 C01D              7     push 29
+0008 C019              8     push 25
+000A C017              9     push 23
+                      10     
+                      11     
+000C D01D             12     pop 29
+000E D019             13     pop 25
+0010 D017             14     pop 23
+                      15     
+                      16     end
+A51 MACRO ASSEMBLER  6                                                                    03/10/2023 12:02:00 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

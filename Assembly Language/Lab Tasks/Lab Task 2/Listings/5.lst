@@ -1,0 +1,40 @@
+A51 MACRO ASSEMBLER  5                                                                    03/10/2023 12:00:22 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+NO OBJECT MODULE REQUESTED
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE 5.asm SET(SMALL) DEBUG PRINT(.\Listings\5.lst) OBJECT(.\Objects\5.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 00h
+0000 7929              2     mov r1,#29h
+0002 7A25              3     mov r2,#25h
+0004 7B23              4     mov r3,#23h
+                       5     
+                       6     
+0006                   7     push r1
+*** ______________________________^
+*** ERROR #A22 IN 7 (5.asm, LINE 7): EXPRESSION TYPE DOES NOT MATCH INSTRUCTION
+0006                   8     push r2
+*** ______________________________^
+*** ERROR #A22 IN 8 (5.asm, LINE 8): EXPRESSION TYPE DOES NOT MATCH INSTRUCTION
+0006                   9     push r3
+*** ______________________________^
+*** ERROR #A22 IN 9 (5.asm, LINE 9): EXPRESSION TYPE DOES NOT MATCH INSTRUCTION
+                      10     
+                      11     end
+A51 MACRO ASSEMBLER  5                                                                    03/10/2023 12:00:22 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 3 ERROR(S)
