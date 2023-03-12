@@ -1,0 +1,58 @@
+a{
+    color:white;
+    background-color: #990;
+    text-decoration: none;
+}
+
+div{
+    background: #333;
+}
+
+div >ul{
+    margin:0 auto;
+    width:80;
+}
+
+div ul li{
+    display:inline;
+    float:left;
+    margin-left: -40px;
+    position: relative;
+
+}
+
+div ul a{
+    display: inline;
+    float: left;
+    width: 150px;
+    padding: 10px 20px;
+
+}
+
+div ul a:hover{
+    background: #090;
+    
+}
+div ul li ul li{
+    float: none;
+    
+}
+
+div ul li ul{
+    display: none;
+    position: absolute;
+    background: #333;
+    top: 42px;
+    
+}
+
+div ul li:hover>ul {
+display: block;
+margin: 0;
+}
+
+
+div ul li a{
+    display: block;
+    
+}
