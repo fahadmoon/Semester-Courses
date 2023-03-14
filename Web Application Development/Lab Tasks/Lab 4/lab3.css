@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'pappins', 'sans-serif';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gainsboro;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgba(44, 7, 7, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    
+}
+
+.logo{
+    user-select: none;
+    font-size: 2em;
+    color: white;
+}
+
+.navigation .a{
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    
+}
+
+.navigation a:hover{
+    color: black;
+    font-size: 30px;
+ 
+
+}
+.navigation .btnLogin{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-left:40px;
+    font-weight: 500;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.navigation .btnLogin:hover{
+    background:#fff ;
+    color:black;
+}
+
+
+
